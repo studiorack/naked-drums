@@ -10,7 +10,7 @@
         "Drums",
         "sfz"
       ],
-      "version": "0.9.22",
+      "version": "1.0.0",
       "id": "wilkinson-audio-naked-drums",
       "date": "2021-11-08T07:00:00.000Z",
       "files": {
@@ -24,15 +24,15 @@
         },
         "linux": {
           "name": "wilkinson-audio-naked-drums.zip",
-          "size": 618693714
+          "size": 1288490188
         },
         "mac": {
           "name": "wilkinson-audio-naked-drums.zip",
-          "size": 618693714
+          "size": 1288490188
         },
         "win": {
           "name": "wilkinson-audio-naked-drums.zip",
-          "size": 618693714
+          "size": 1288490188
         }
       }
     }
