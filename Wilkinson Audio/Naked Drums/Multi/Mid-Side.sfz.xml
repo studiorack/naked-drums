@@ -1,0 +1,231 @@
+<?xml version="1.0"?>undefined
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="MidSide_D3_10_one-XXB3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="MidSide_D3_20_one-FZYQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="MidSide_D3_30_one-67VG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="MidSide_D3_10_two-54WY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="MidSide_D3_20_two-CJC0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="MidSide_D3_30_two-8CGW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="MidSide_D3_10_three-59KV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="MidSide_D3_20_three-QIN2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="MidSide_D3_30_three-UQA2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="MidSide_D3_10_four-OWGT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="MidSide_D3_20_four-IR8A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="MidSide_D3_30_four-8WIS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="MidSide_D3_10_five-8SAN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="MidSide_D3_20_five-STP7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="MidSide_D3_30_five-84Q1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="MidSide_D3_10_six-YEHT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="MidSide_D3_20_six-6HP4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="MidSide_D3_30_six-QQ5F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="MidSide_D3_10_seven-KSH8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="MidSide_D3_20_seven-Q4PZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="MidSide_D3_30_seven-ZV7A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="MidSide_D3_10_eight-Y1QH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="MidSide_D3_20_eight-3VCC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="MidSide_D3_30_eight-FGYX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="MidSide_D3_10_nine-DQSN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="MidSide_D3_20_nine-94RZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="MidSide_D3_30_nine-JYM5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="MidSide_D3_10_ten-DL5K.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="MidSide_D3_20_ten-YBSA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="MidSide_D3_30_ten-R6KC.ogg" />
+</region>
+<group>
+	<opcode name="group" value="210" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="52" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="66" />
+</region>

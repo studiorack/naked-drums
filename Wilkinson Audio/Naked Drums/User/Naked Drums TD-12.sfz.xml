@@ -1,0 +1,231 @@
+<?xml version="1.0"?>undefined
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="FarRooms_D3_10_one-B9CD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="FarRooms_D3_20_one-Z7XC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="FarRooms_D3_30_one-6XY7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="FarRooms_D3_10_two-T7FR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="FarRooms_D3_20_two-XRFT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="FarRooms_D3_30_two-A13B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="FarRooms_D3_10_three-LX71.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="FarRooms_D3_20_three-AUZG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="FarRooms_D3_30_three-198B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="FarRooms_D3_10_four-34FP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="FarRooms_D3_20_four-7PB6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="FarRooms_D3_30_four-FFWT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="FarRooms_D3_10_five-308F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="FarRooms_D3_20_five-F9VW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="FarRooms_D3_30_five-3ITK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="FarRooms_D3_10_six-90XU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="FarRooms_D3_20_six-6FWG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="FarRooms_D3_30_six-ZHSA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="FarRooms_D3_10_seven-2Z9L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="FarRooms_D3_20_seven-7W3J.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="FarRooms_D3_30_seven-HNXX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="FarRooms_D3_10_eight-WQ32.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="FarRooms_D3_20_eight-RJIO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="FarRooms_D3_30_eight-E8YL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="FarRooms_D3_10_nine-JRPD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="FarRooms_D3_20_nine-GFMV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="FarRooms_D3_30_nine-IV7N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V31H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="FarRooms_D3_10_ten-PANN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="$V32H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="FarRooms_D3_20_ten-61LI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="$V33H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="FarRooms_D3_30_ten-0PJM.ogg" />
+</region>
+<group>
+	<opcode name="group" value="210" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="30" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="66" />
+</region>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>undefined
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="RideMic_E3_10_one-A5YV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="RideMic_E3_10_two-K673.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="RideMic_E3_10_three-ARA8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="RideMic_E3_10_four-WJ66.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="RideMic_E3_10_five-B671.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="RideMic_E3_10_six-ARLT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="RideMic_E3_10_seven-GJSM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="RideMic_E3_10_eight-715F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="RideMic_E3_10_nine-NWIY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V11H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="RideMic_E3_10_ten-E1KQ.ogg" />
+</region>
+<group>
+	<opcode name="group" value="204" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="51" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="53" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="60" />
+</region>

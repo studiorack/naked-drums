@@ -1,0 +1,3717 @@
+elements:
+  - {}
+  - type: element
+    name: curve
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: curve_index
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: v000
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: v001
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: v127
+          value: '1'
+  - type: element
+    name: control
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: default_path
+          value: ../Samples/
+  - type: element
+    name: global
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: loop_mode
+          value: one_shot
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_length
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '99'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_curvecc7
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_oncc10
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_curvecc10
+          value: '1'
+  - type: element
+    name: master
+    elements: []
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '37'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_volume
+          value: '-12'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Sidestick
+  - {}
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_one-T8E0.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_two-SDF7.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_three-FS2F.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_four-Z1WM.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_five-81XV.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_six-8MFA.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_seven-8OI7.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_eight-899J.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_nine-IUIZ.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: Bottom_Black_D2_50_ten-1E8E.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '38'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_volume
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Center
+  - {}
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_one-1J07.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_one-9PUL.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_one-BZ42.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_one-T3PW.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_one-S0K8.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_two-TD31.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_two-O1FN.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_two-Z8QN.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_two-29CD.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_two-KPMM.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_three-A4MX.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_three-Y0KW.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_three-JMSZ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_three-YU0Z.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_three-NGXV.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_four-MFUD.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_four-FGQC.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_four-MJRC.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_four-X0YF.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_four-WNWF.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_five-CS56.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_five-6E8K.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_five-NC0O.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_five-MTNN.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_five-9UTU.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_six-XGAC.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_six-EAYO.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_six-9MTP.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_six-5K5B.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_six-EUY4.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_seven-J838.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_seven-SLE0.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_seven-MGVE.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_seven-J2A8.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_seven-LVY1.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_eight-A9D5.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_eight-ROI9.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_eight-I9ID.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_eight-V774.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_eight-BEAY.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_nine-24TW.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_nine-W3W0.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_nine-COIM.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_nine-VBPZ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_nine-FS7D.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_ten-0DGQ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_ten-TTMR.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_ten-ABMS.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_ten-ABAB.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_ten-11E1.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '40'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_volume
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Center
+      - type: element
+        name: opcode
+        attributes:
+          name: master_label
+          value: Snare2
+  - {}
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_one-PDJ1.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_one-25DJ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_one-3EYD.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_one-2SF4.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_one-8BQQ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_two-EZM0.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_two-DW04.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_two-KUGY.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_two-AX08.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_two-3MI9.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_three-Y2Z1.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_three-H84B.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_three-AJ3P.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_three-4SQU.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_three-PC2M.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_four-QX0C.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_four-ATZZ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_four-Q3CM.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_four-G947.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_four-VXP5.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_five-820E.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_five-1GMN.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_five-IIIF.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_five-YW6A.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_five-F5V9.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_six-ZDRD.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_six-9JBK.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_six-0Q1A.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_six-TIDH.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_six-BTHQ.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_seven-ZSRG.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_seven-X1VR.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_seven-A892.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_seven-5WGI.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_seven-XJWB.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_eight-AUBR.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_eight-LDO7.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_eight-GGUL.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_eight-1VWG.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_eight-DY7E.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_nine-4BFH.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_nine-8OTC.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_nine-JGEV.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_nine-NGV0.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_nine-MJ5R.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V51H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_10_ten-Q8K2.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V52H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_20_ten-MV9I.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V53H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_30_ten-R3TG.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V54H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 40 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_40_ten-3KLE.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V55H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 50 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-Bottom_Black_D2_50_ten-CX0K.ogg'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '0'
+

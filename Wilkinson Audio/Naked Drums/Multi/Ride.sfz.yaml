@@ -1,0 +1,1405 @@
+elements:
+  - {}
+  - type: element
+    name: curve
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: curve_index
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: v000
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: v001
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: v127
+          value: '1'
+  - type: element
+    name: control
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: default_path
+          value: ../Samples/
+  - type: element
+    name: global
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: loop_mode
+          value: one_shot
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_length
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '99'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_curvecc7
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_oncc10
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_curvecc10
+          value: '1'
+  - type: element
+    name: master
+    elements: []
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: group
+          value: '16'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_by
+          value: '204'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_time
+          value: '0.49'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_shape
+          value: '-3'
+      - type: element
+        name: opcode
+        attributes:
+          name: note_polyphony
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_volume
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Bow
+  - {}
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_one-ZAHP.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_one-WPGL.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_one-KDE4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_two-PM2V.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_two-F47L.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_two-JK2D.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_three-CUS8.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_three-R9BX.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_three-CBH2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_four-FLH0.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_four-QBZF.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_four-SKC0.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_five-8UII.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_five-G4TL.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_five-FR6A.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_six-A3CU.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_six-UUXV.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_six-XAOK.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_seven-UECX.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_seven-JVON.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_seven-4OJH.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_eight-6UMX.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_eight-GJ55.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_eight-HFCN.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_nine-17PV.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_nine-TUS1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_nine-JU0Q.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_10_ten-LUAI.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_20_ten-DUMD.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_D3_30_ten-51WO.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: group
+          value: '17'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_by
+          value: '204'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_time
+          value: '0.49'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_shape
+          value: '-3'
+      - type: element
+        name: opcode
+        attributes:
+          name: note_polyphony
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_volume
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Bell
+  - {}
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_one-A5YV.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_two-K673.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_three-ARA8.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_four-WJ66.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_five-B671.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_six-ARLT.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_seven-GJSM.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_eight-715F.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_nine-NWIY.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V11H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: RideMic_E3_10_ten-E1KQ.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group
+          value: '204'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Choke
+      - type: element
+        name: opcode
+        attributes:
+          name: ampeg_sustain
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '*silence'
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_length
+          value: '1'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: trigger
+          value: release
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: locc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: hicc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_locc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_hicc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_vel
+          value: previous
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: trigger
+          value: release
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: locc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: hicc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_locc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_hicc130
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_vel
+          value: previous
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '60'
+

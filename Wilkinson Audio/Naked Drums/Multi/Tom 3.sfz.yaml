@@ -1,0 +1,929 @@
+elements:
+  - {}
+  - type: element
+    name: curve
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: curve_index
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: v000
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: v001
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: v127
+          value: '1'
+  - type: element
+    name: control
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: default_path
+          value: ../Samples/
+  - type: element
+    name: global
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: loop_mode
+          value: one_shot
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_length
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '99'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_curvecc7
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_oncc10
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_curvecc10
+          value: '1'
+  - type: element
+    name: master
+    elements: []
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '45'
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: Center
+  - {}
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_one-ZNU9.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_one-UKXC.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 one
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_one-9BS2.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_two-2VXX.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_two-9SFY.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 two
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_two-1O11.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_three-C7N7.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_three-HHWR.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '3'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 three
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_three-ATMN.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_four-2S1B.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_four-MSPB.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 four
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_four-2FEY.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_five-NOJ0.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_five-2J1F.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '5'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 five
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_five-0V3W.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_six-NATA.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_six-W16T.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 six
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_six-1QK8.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_seven-I4RR.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_seven-57TZ.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 seven
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_seven-F7HE.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_eight-DE10.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_eight-FEEN.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 eight
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_eight-LON9.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_nine-DPKE.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_nine-1O83.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 nine
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_nine-6FT7.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V31H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 10 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_10_ten-MAVH.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V32H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 20 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_20_ten-OKB4.ogg'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: $V33H
+      - type: element
+        name: opcode
+        attributes:
+          name: seq_position
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: 30 ten
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: '-TopOne_D3_30_ten-FJ10.ogg'
+

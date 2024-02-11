@@ -1,0 +1,401 @@
+<?xml version="1.0"?>undefined
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_one-FHW3.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_one-PHDM.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_one-IULU.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="40 one" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_one-IJQP.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="50 one" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_one-6FQE.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_two-MYGT.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_two-9O0E.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_two-F9P6.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="40 two" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_two-GQSQ.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="50 two" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_two-R6DM.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_three-WRM1.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_three-R209.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_three-92MD.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="40 three" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_three-4TTQ.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="50 three" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_three-QOO4.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_four-OQJY.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_four-0TV9.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_four-Z8SX.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="40 four" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_four-KQZI.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="50 four" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_four-YQU3.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_five-3BOU.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_five-6NCK.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_five-3O8F.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="40 five" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_five-U17O.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="50 five" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_five-A8SL.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_six-MNKN.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_six-V0XN.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_six-0R4A.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="40 six" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_six-VGOG.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="50 six" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_six-TMK8.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_seven-KO6C.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_seven-LC6C.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_seven-RY3Q.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="40 seven" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_seven-YSLO.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="50 seven" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_seven-RNK2.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_eight-MABA.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_eight-7O0Z.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_eight-UXSH.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="40 eight" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_eight-RF7O.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="50 eight" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_eight-ZDNR.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_nine-NRI2.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_nine-80US.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_nine-BI8O.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="40 nine" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_nine-KI72.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="50 nine" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_nine-ZHS7.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="$V51H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="-TopOne_Black_D2_10_ten-Q9F0.ogg" />
+	<opcode name="volume" value="6" />
+</region>
+<region>
+	<opcode name="lovel" value="28" />
+	<opcode name="hivel" value="$V52H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="-TopOne_Black_D2_20_ten-QPFH.ogg" />
+	<opcode name="volume" value="4" />
+</region>
+<region>
+	<opcode name="lovel" value="53" />
+	<opcode name="hivel" value="$V53H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="-TopOne_Black_D2_30_ten-5TG5.ogg" />
+	<opcode name="volume" value="2" />
+</region>
+<region>
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="$V54H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="40 ten" />
+	<opcode name="sample" value="-TopOne_Black_D2_40_ten-2JIH.ogg" />
+	<opcode name="volume" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="103" />
+	<opcode name="hivel" value="$V55H" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="50 ten" />
+	<opcode name="sample" value="-TopOne_Black_D2_50_ten-HTGY.ogg" />
+	<opcode name="volume" value="0" />
+</region>
