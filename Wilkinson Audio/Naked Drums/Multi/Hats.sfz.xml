@@ -1,210 +1,2471 @@
-<?xml version="1.0"?>undefined
+<?xml version="1.0"?>
+<curve>
+	<opcode name="curve_index" value="9" />
+	<opcode name="v000" value="0" />
+	<opcode name="v001" value="1" />
+	<opcode name="v127" value="1" />
+</curve>
+<control>
+	<opcode name="default_path" value="../Samples/" />
+	<opcode name="label_cc4" value="Pedal (4)" />
+	<opcode name="label_cc7" value="Vol" />
+	<opcode name="label_cc10" value="Pan" />
+	<opcode name="set_cc7" value="100" />
+	<opcode name="set_hdcc10" value="0.5" />
+</control>
+<global>
+	<opcode name="loop_mode" value="one_shot" />
+	<opcode name="seq_length" value="10" />
+	<opcode name="amp_veltrack" value="99" />
+	<opcode name="amplitude_oncc7" value="100" />
+	<opcode name="amplitude_curvecc7" value="4" />
+	<opcode name="pan_oncc10" value="100" />
+	<opcode name="pan_curvecc10" value="1" />
+</global>
+<master>
+	<opcode name="sw_lokey" value="12" />
+	<opcode name="sw_hikey" value="13" />
+	<opcode name="sw_default" value="12" />
+	<opcode name="master_label" value="Hats" />
+	<opcode name="master_volume" value="-12" />
+	<opcode name="note_polyphony" value="3" />
+	<opcode name="off_time" value="0.2" />
+</master>
+<group>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="11" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="Pedal" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_E2_10_one-3DLM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_E2_10_two-GHNL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_E2_10_three-24WB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_E2_10_four-EIOP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_E2_10_five-SCB1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_E2_10_six-PGZK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_E2_10_seven-82IV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_E2_10_eight-UYMT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_E2_10_nine-J7LW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_E2_10_ten-ZGHF.ogg" />
+</region>
+<group>
+	<opcode name="key" value="39" />
+	<opcode name="group" value="12" />
+	<opcode name="off_by" value="200" />
+	<opcode name="group_volume" value="-4" />
+	<opcode name="group_label" value="Tight" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_D2_10_one-2LZ3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_D2_20_one-BMQY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_D2_30_one-QZ60.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_D2_10_two-UTVY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_D2_20_two-AHJA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_D2_30_two-NI2D.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_D2_10_three-4NAE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_D2_20_three-JNC3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_D2_30_three-9Q2O.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_D2_10_four-7PLJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_D2_20_four-KOC0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_D2_30_four-DJUS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_D2_10_five-084A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_D2_20_five-2959.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_D2_30_five-QVNY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_D2_10_six-LG6M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_D2_20_six-FQAZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_D2_30_six-DS6E.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_D2_10_seven-3S2T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_D2_20_seven-8UMI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_D2_30_seven-GZ0V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_D2_10_eight-SEI1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_D2_20_eight-VH7C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_D2_30_eight-TW1P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_D2_10_nine-VGMM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_D2_20_nine-7GZO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_D2_30_nine-CAVD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_D2_10_ten-BWS6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_D2_20_ten-VEYR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_D2_30_ten-58L7.ogg" />
+</region>
+<group>
+	<opcode name="key" value="42" />
+	<opcode name="group" value="13" />
+	<opcode name="off_by" value="201" />
+	<opcode name="group_volume" value="1" />
+	<opcode name="group_label" value="Closed" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="1" />
 	<opcode name="region_label" value="10 one" />
 	<opcode name="sample" value="HatMic_A2_10_one-7G28.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="1" />
 	<opcode name="region_label" value="20 one" />
 	<opcode name="sample" value="HatMic_A2_20_one-GU63.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="1" />
 	<opcode name="region_label" value="30 one" />
 	<opcode name="sample" value="HatMic_A2_30_one-G62L.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="2" />
 	<opcode name="region_label" value="10 two" />
 	<opcode name="sample" value="HatMic_A2_10_two-OJDH.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="2" />
 	<opcode name="region_label" value="20 two" />
 	<opcode name="sample" value="HatMic_A2_20_two-VJNC.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="2" />
 	<opcode name="region_label" value="30 two" />
 	<opcode name="sample" value="HatMic_A2_30_two-EQGU.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="3" />
 	<opcode name="region_label" value="10 three" />
 	<opcode name="sample" value="HatMic_A2_10_three-1ICH.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="3" />
 	<opcode name="region_label" value="20 three" />
 	<opcode name="sample" value="HatMic_A2_20_three-VG68.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="3" />
 	<opcode name="region_label" value="30 three" />
 	<opcode name="sample" value="HatMic_A2_30_three-3SLH.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="4" />
 	<opcode name="region_label" value="10 four" />
 	<opcode name="sample" value="HatMic_A2_10_four-EDY7.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="4" />
 	<opcode name="region_label" value="20 four" />
 	<opcode name="sample" value="HatMic_A2_20_four-FKAB.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="4" />
 	<opcode name="region_label" value="30 four" />
 	<opcode name="sample" value="HatMic_A2_30_four-LLZP.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="5" />
 	<opcode name="region_label" value="10 five" />
 	<opcode name="sample" value="HatMic_A2_10_five-VNRT.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="5" />
 	<opcode name="region_label" value="20 five" />
 	<opcode name="sample" value="HatMic_A2_20_five-WDZ3.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="5" />
 	<opcode name="region_label" value="30 five" />
 	<opcode name="sample" value="HatMic_A2_30_five-2205.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="6" />
 	<opcode name="region_label" value="10 six" />
 	<opcode name="sample" value="HatMic_A2_10_six-TN1U.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="6" />
 	<opcode name="region_label" value="20 six" />
 	<opcode name="sample" value="HatMic_A2_20_six-UIGO.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="6" />
 	<opcode name="region_label" value="30 six" />
 	<opcode name="sample" value="HatMic_A2_30_six-9R5E.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="7" />
 	<opcode name="region_label" value="10 seven" />
 	<opcode name="sample" value="HatMic_A2_10_seven-PYD2.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="7" />
 	<opcode name="region_label" value="20 seven" />
 	<opcode name="sample" value="HatMic_A2_20_seven-D882.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="7" />
 	<opcode name="region_label" value="30 seven" />
 	<opcode name="sample" value="HatMic_A2_30_seven-PLLD.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="8" />
 	<opcode name="region_label" value="10 eight" />
 	<opcode name="sample" value="HatMic_A2_10_eight-SVF1.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="8" />
 	<opcode name="region_label" value="20 eight" />
 	<opcode name="sample" value="HatMic_A2_20_eight-ZUAK.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="8" />
 	<opcode name="region_label" value="30 eight" />
 	<opcode name="sample" value="HatMic_A2_30_eight-QC4V.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="9" />
 	<opcode name="region_label" value="10 nine" />
 	<opcode name="sample" value="HatMic_A2_10_nine-5V1C.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="9" />
 	<opcode name="region_label" value="20 nine" />
 	<opcode name="sample" value="HatMic_A2_20_nine-MQUL.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="9" />
 	<opcode name="region_label" value="30 nine" />
 	<opcode name="sample" value="HatMic_A2_30_nine-0H7V.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="10" />
 	<opcode name="region_label" value="10 ten" />
 	<opcode name="sample" value="HatMic_A2_10_ten-PN47.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="10" />
 	<opcode name="region_label" value="20 ten" />
 	<opcode name="sample" value="HatMic_A2_20_ten-SXNK.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_A2_30_ten-04YT.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="group" value="14" />
+	<opcode name="off_by" value="202" />
+	<opcode name="group_volume" value="7" />
+	<opcode name="group_label" value="Half" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_G2_10_one-W526.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_G2_20_one-LV5Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_G2_30_one-12YE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_G2_10_two-V853.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_G2_20_two-GAU0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_G2_30_two-YOMI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_G2_10_three-55EQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_G2_20_three-EXF5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_G2_30_three-UYP8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_G2_10_four-HSR7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_G2_20_four-4XCX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_G2_30_four-T0AC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_G2_10_five-FF5Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_G2_20_five-GSKQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_G2_30_five-413P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_G2_10_six-D0YA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_G2_20_six-IXVR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_G2_30_six-C0Z6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_G2_10_seven-1RZI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_G2_20_seven-A0WO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_G2_30_seven-PVBV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_G2_10_eight-RBMD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_G2_20_eight-LMQ3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_G2_30_eight-YHZZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_G2_10_nine-A6E8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_G2_20_nine-W3HO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_G2_30_nine-0O8C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_G2_10_ten-K9DN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_G2_20_ten-OPS2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_G2_30_ten-5GH8.ogg" />
+</region>
+<group>
+	<opcode name="key" value="49" />
+	<opcode name="group" value="15" />
+	<opcode name="off_by" value="203" />
+	<opcode name="group_volume" value="8" />
+	<opcode name="group_label" value="Open" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_F2_10_one-CP1T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_F2_20_one-35LR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_F2_30_one-343P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_F2_10_two-LV3M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_F2_20_two-DSEK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_F2_30_two-L9AT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_F2_10_three-MMEK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_F2_20_three-D768.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_F2_30_three-UJM1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_F2_10_four-ZTJC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_F2_20_four-9G3A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_F2_30_four-2QY3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_F2_10_five-HCBI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_F2_20_five-7BES.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_F2_30_five-YLEU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_F2_10_six-Y88N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_F2_20_six-S555.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_F2_30_six-GIVN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_F2_10_seven-AG30.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_F2_20_seven-JYCU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_F2_30_seven-KHE5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_F2_10_eight-LWI7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_F2_20_eight-QW8T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_F2_30_eight-WNZW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_F2_10_nine-149L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_F2_20_nine-TXX5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_F2_30_nine-N9A5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_F2_10_ten-3969.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_F2_20_ten-1MOY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_F2_30_ten-CL29.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="locc4" value="0" />
+	<opcode name="hicc4" value="43" />
+	<opcode name="group" value="15" />
+	<opcode name="off_by" value="203" />
+	<opcode name="group_volume" value="8" />
+	<opcode name="group_label" value="Open" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_F2_10_one-CP1T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_F2_20_one-35LR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_F2_30_one-343P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_F2_10_two-LV3M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_F2_20_two-DSEK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_F2_30_two-L9AT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_F2_10_three-MMEK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_F2_20_three-D768.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_F2_30_three-UJM1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_F2_10_four-ZTJC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_F2_20_four-9G3A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_F2_30_four-2QY3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_F2_10_five-HCBI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_F2_20_five-7BES.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_F2_30_five-YLEU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_F2_10_six-Y88N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_F2_20_six-S555.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_F2_30_six-GIVN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_F2_10_seven-AG30.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_F2_20_seven-JYCU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_F2_30_seven-KHE5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_F2_10_eight-LWI7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_F2_20_eight-QW8T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_F2_30_eight-WNZW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_F2_10_nine-149L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_F2_20_nine-TXX5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_F2_30_nine-N9A5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_F2_10_ten-3969.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_F2_20_ten-1MOY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_F2_30_ten-CL29.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="locc4" value="44" />
+	<opcode name="hicc4" value="85" />
+	<opcode name="group" value="14" />
+	<opcode name="off_by" value="202" />
+	<opcode name="group_volume" value="7" />
+	<opcode name="group_label" value="Half" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_G2_10_one-W526.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_G2_20_one-LV5Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_G2_30_one-12YE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_G2_10_two-V853.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_G2_20_two-GAU0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_G2_30_two-YOMI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_G2_10_three-55EQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_G2_20_three-EXF5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_G2_30_three-UYP8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_G2_10_four-HSR7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_G2_20_four-4XCX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_G2_30_four-T0AC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_G2_10_five-FF5Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_G2_20_five-GSKQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_G2_30_five-413P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_G2_10_six-D0YA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_G2_20_six-IXVR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_G2_30_six-C0Z6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_G2_10_seven-1RZI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_G2_20_seven-A0WO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_G2_30_seven-PVBV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_G2_10_eight-RBMD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_G2_20_eight-LMQ3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_G2_30_eight-YHZZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_G2_10_nine-A6E8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_G2_20_nine-W3HO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_G2_30_nine-0O8C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_G2_10_ten-K9DN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_G2_20_ten-OPS2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_G2_30_ten-5GH8.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="locc4" value="86" />
+	<opcode name="hicc4" value="127" />
+	<opcode name="group" value="12" />
+	<opcode name="off_by" value="200" />
+	<opcode name="group_volume" value="-4" />
+	<opcode name="group_label" value="Tight" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_D2_10_one-2LZ3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_D2_20_one-BMQY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_D2_30_one-QZ60.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_D2_10_two-UTVY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_D2_20_two-AHJA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_D2_30_two-NI2D.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_D2_10_three-4NAE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_D2_20_three-JNC3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_D2_30_three-9Q2O.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_D2_10_four-7PLJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_D2_20_four-KOC0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_D2_30_four-DJUS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_D2_10_five-084A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_D2_20_five-2959.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_D2_30_five-QVNY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_D2_10_six-LG6M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_D2_20_six-FQAZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_D2_30_six-DS6E.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_D2_10_seven-3S2T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_D2_20_seven-8UMI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_D2_30_seven-GZ0V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_D2_10_eight-SEI1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_D2_20_eight-VH7C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_D2_30_eight-TW1P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_D2_10_nine-VGMM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_D2_20_nine-7GZO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_D2_30_nine-CAVD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_D2_10_ten-BWS6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_D2_20_ten-VEYR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_D2_30_ten-58L7.ogg" />
+</region>
+<group>
+	<opcode name="key" value="26" />
+	<opcode name="locc4" value="0" />
+	<opcode name="hicc4" value="43" />
+	<opcode name="group" value="15" />
+	<opcode name="off_by" value="203" />
+	<opcode name="group_volume" value="8" />
+	<opcode name="group_label" value="Open" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_F2_10_one-CP1T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_F2_20_one-35LR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_F2_30_one-343P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_F2_10_two-LV3M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_F2_20_two-DSEK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_F2_30_two-L9AT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_F2_10_three-MMEK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_F2_20_three-D768.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_F2_30_three-UJM1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_F2_10_four-ZTJC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_F2_20_four-9G3A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_F2_30_four-2QY3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_F2_10_five-HCBI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_F2_20_five-7BES.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_F2_30_five-YLEU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_F2_10_six-Y88N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_F2_20_six-S555.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_F2_30_six-GIVN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_F2_10_seven-AG30.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_F2_20_seven-JYCU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_F2_30_seven-KHE5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_F2_10_eight-LWI7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_F2_20_eight-QW8T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_F2_30_eight-WNZW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_F2_10_nine-149L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_F2_20_nine-TXX5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_F2_30_nine-N9A5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_F2_10_ten-3969.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_F2_20_ten-1MOY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_F2_30_ten-CL29.ogg" />
+</region>
+<group>
+	<opcode name="key" value="26" />
+	<opcode name="locc4" value="44" />
+	<opcode name="hicc4" value="85" />
+	<opcode name="group" value="14" />
+	<opcode name="off_by" value="202" />
+	<opcode name="group_volume" value="7" />
+	<opcode name="group_label" value="Half" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_G2_10_one-W526.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_G2_20_one-LV5Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_G2_30_one-12YE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_G2_10_two-V853.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_G2_20_two-GAU0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_G2_30_two-YOMI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_G2_10_three-55EQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_G2_20_three-EXF5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_G2_30_three-UYP8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_G2_10_four-HSR7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_G2_20_four-4XCX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_G2_30_four-T0AC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_G2_10_five-FF5Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_G2_20_five-GSKQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_G2_30_five-413P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_G2_10_six-D0YA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_G2_20_six-IXVR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_G2_30_six-C0Z6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_G2_10_seven-1RZI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_G2_20_seven-A0WO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_G2_30_seven-PVBV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_G2_10_eight-RBMD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_G2_20_eight-LMQ3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_G2_30_eight-YHZZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_G2_10_nine-A6E8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_G2_20_nine-W3HO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_G2_30_nine-0O8C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_G2_10_ten-K9DN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_G2_20_ten-OPS2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="HatMic_G2_30_ten-5GH8.ogg" />
+</region>
+<group>
+	<opcode name="key" value="26" />
+	<opcode name="locc4" value="86" />
+	<opcode name="hicc4" value="127" />
+	<opcode name="group" value="13" />
+	<opcode name="off_by" value="201" />
+	<opcode name="group_volume" value="1" />
+	<opcode name="group_label" value="Closed" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="HatMic_A2_10_one-7G28.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="HatMic_A2_20_one-GU63.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="HatMic_A2_30_one-G62L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="HatMic_A2_10_two-OJDH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="HatMic_A2_20_two-VJNC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="HatMic_A2_30_two-EQGU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="HatMic_A2_10_three-1ICH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="HatMic_A2_20_three-VG68.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="HatMic_A2_30_three-3SLH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="HatMic_A2_10_four-EDY7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="HatMic_A2_20_four-FKAB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="HatMic_A2_30_four-LLZP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="HatMic_A2_10_five-VNRT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="HatMic_A2_20_five-WDZ3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="HatMic_A2_30_five-2205.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="HatMic_A2_10_six-TN1U.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="HatMic_A2_20_six-UIGO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="HatMic_A2_30_six-9R5E.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="HatMic_A2_10_seven-PYD2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="HatMic_A2_20_seven-D882.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="HatMic_A2_30_seven-PLLD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="HatMic_A2_10_eight-SVF1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="HatMic_A2_20_eight-ZUAK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="HatMic_A2_30_eight-QC4V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="HatMic_A2_10_nine-5V1C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="HatMic_A2_20_nine-MQUL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="HatMic_A2_30_nine-0H7V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="HatMic_A2_10_ten-PN47.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="HatMic_A2_20_ten-SXNK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="10" />
 	<opcode name="region_label" value="30 ten" />
 	<opcode name="sample" value="HatMic_A2_30_ten-04YT.ogg" />

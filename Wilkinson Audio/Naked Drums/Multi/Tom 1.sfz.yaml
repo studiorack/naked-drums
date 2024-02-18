@@ -1,5 +1,4 @@
 elements:
-  - {}
   - type: element
     name: curve
     elements:
@@ -31,6 +30,26 @@ elements:
         attributes:
           name: default_path
           value: ../Samples/
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc7
+          value: Vol
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc10
+          value: Pan
+      - type: element
+        name: opcode
+        attributes:
+          name: set_cc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc10
+          value: '0.5'
   - type: element
     name: global
     elements:
@@ -71,7 +90,37 @@ elements:
           value: '1'
   - type: element
     name: master
-    elements: []
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: master_label
+          value: Tom1
+      - type: element
+        name: opcode
+        attributes:
+          name: master_volume
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: note_polyphony
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_time
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: group
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: tune
+          value: '0'
   - type: element
     name: group
     elements:
@@ -85,7 +134,6 @@ elements:
         attributes:
           name: group_label
           value: Center
-  - {}
   - type: element
     name: region
     elements:
@@ -98,7 +146,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -126,7 +174,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -154,7 +202,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -182,7 +230,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -210,7 +258,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -238,7 +286,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -266,7 +314,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -294,7 +342,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -322,7 +370,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -350,7 +398,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -378,7 +426,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -406,7 +454,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -434,7 +482,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -462,7 +510,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -490,7 +538,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -518,7 +566,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -546,7 +594,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -574,7 +622,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -602,7 +650,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -630,7 +678,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -658,7 +706,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -686,7 +734,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -714,7 +762,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -742,7 +790,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -770,7 +818,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -798,7 +846,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -826,7 +874,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:
@@ -854,7 +902,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V31H
+          value: '43'
       - type: element
         name: opcode
         attributes:
@@ -882,7 +930,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V32H
+          value: '85'
       - type: element
         name: opcode
         attributes:
@@ -910,7 +958,7 @@ elements:
         name: opcode
         attributes:
           name: hivel
-          value: $V33H
+          value: '127'
       - type: element
         name: opcode
         attributes:

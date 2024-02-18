@@ -1,210 +1,4625 @@
-<?xml version="1.0"?>undefined
+<?xml version="1.0"?>
+<curve>
+	<opcode name="curve_index" value="9" />
+	<opcode name="v000" value="0" />
+	<opcode name="v001" value="1" />
+	<opcode name="v127" value="1" />
+</curve>
+<control>
+	<opcode name="default_path" value="../Samples/" />
+	<opcode name="label_cc607" value="Hats" />
+	<opcode name="label_cc608" value="Ride" />
+	<opcode name="label_cc609" value="Crash1" />
+	<opcode name="label_cc610" value="Crash2" />
+	<opcode name="label_cc611" value="Splash1" />
+	<opcode name="label_cc612" value="Splash2" />
+	<opcode name="label_cc613" value="China1" />
+	<opcode name="label_cc614" value="China2" />
+	<opcode name="set_hdcc607" value="0.5" />
+	<opcode name="set_hdcc608" value="0.5" />
+	<opcode name="set_hdcc609" value="0.5" />
+	<opcode name="set_hdcc610" value="0.5" />
+	<opcode name="set_hdcc611" value="0.5" />
+	<opcode name="set_hdcc612" value="0.5" />
+	<opcode name="set_hdcc613" value="0.5" />
+	<opcode name="set_hdcc614" value="0.5" />
+	<opcode name="label_cc4" value="Pedal (4)" />
+	<opcode name="label_cc7" value="Vol" />
+	<opcode name="label_cc10" value="Pan" />
+	<opcode name="set_cc7" value="100" />
+	<opcode name="set_hdcc10" value="0.5" />
+</control>
+<global>
+	<opcode name="loop_mode" value="one_shot" />
+	<opcode name="seq_length" value="10" />
+	<opcode name="amp_veltrack" value="99" />
+	<opcode name="amplitude_oncc7" value="100" />
+	<opcode name="amplitude_curvecc7" value="4" />
+	<opcode name="pan_oncc10" value="100" />
+	<opcode name="pan_curvecc10" value="1" />
+</global>
+<master>
+	<opcode name="locc607" value="1" />
+	<opcode name="amplitude_oncc607" value="200" />
+	<opcode name="sw_lokey" value="12" />
+	<opcode name="sw_hikey" value="13" />
+	<opcode name="sw_default" value="12" />
+	<opcode name="master_label" value="Hats" />
+	<opcode name="master_volume" value="0" />
+	<opcode name="note_polyphony" value="3" />
+	<opcode name="off_time" value="0.45" />
+</master>
+<group>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="114" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="Pedal" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_E2_10_one-94NX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_E2_10_two-FJHZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_E2_10_three-ZAH0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_E2_10_four-3MJK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_E2_10_five-WD4U.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_E2_10_six-7E0G.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_E2_10_seven-SDLY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_E2_10_eight-J3NC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_E2_10_nine-U663.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_E2_10_ten-VVAI.ogg" />
+</region>
+<group>
+	<opcode name="key" value="39" />
+	<opcode name="group" value="115" />
+	<opcode name="off_by" value="200" />
+	<opcode name="group_volume" value="-4" />
+	<opcode name="group_label" value="Tight" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_D2_10_one-288O.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_D2_20_one-BC0H.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_D2_30_one-GO8Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_D2_10_two-EKPW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_D2_20_two-JW8B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_D2_30_two-QRO8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_D2_10_three-9UI3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_D2_20_three-5EYE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_D2_30_three-EVE0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_D2_10_four-Q5Y6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_D2_20_four-JAJJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_D2_30_four-Y56Y.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_D2_10_five-NEBB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_D2_20_five-O66R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_D2_30_five-XN8B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_D2_10_six-4NCA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_D2_20_six-0W1R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_D2_30_six-261N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_D2_10_seven-TF3Q.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_D2_20_seven-SSSO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_D2_30_seven-M73R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_D2_10_eight-MYJB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_D2_20_eight-G8EK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_D2_30_eight-MHTA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_D2_10_nine-JQ4W.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_D2_20_nine-6KFB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_D2_30_nine-0SUC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_D2_10_ten-VJWJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_D2_20_ten-OA16.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_D2_30_ten-RESV.ogg" />
+</region>
+<group>
+	<opcode name="key" value="42" />
+	<opcode name="group" value="116" />
+	<opcode name="off_by" value="201" />
+	<opcode name="group_volume" value="1" />
+	<opcode name="group_label" value="Closed" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_A2_10_one-24XE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_A2_20_one-WXAN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_A2_30_one-DUTK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_A2_10_two-5W6B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_A2_20_two-YCJ0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_A2_30_two-I2IV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_A2_10_three-TGZG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_A2_20_three-5TXD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_A2_30_three-CF1X.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_A2_10_four-XIA8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_A2_20_four-NQH6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_A2_30_four-CBUX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_A2_10_five-AJR1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_A2_20_five-605T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_A2_30_five-OX4P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_A2_10_six-84YI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_A2_20_six-S1PZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_A2_30_six-6PUZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_A2_10_seven-0E52.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_A2_20_seven-05ER.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_A2_30_seven-WN0M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_A2_10_eight-7MF7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_A2_20_eight-VVAX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_A2_30_eight-8VV3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_A2_10_nine-101G.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_A2_20_nine-WERT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_A2_30_nine-YDHI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_A2_10_ten-CA2T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_A2_20_ten-645F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_A2_30_ten-3PI5.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="group" value="117" />
+	<opcode name="off_by" value="202" />
+	<opcode name="group_volume" value="7" />
+	<opcode name="group_label" value="Half" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_G2_10_one-MBS0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_G2_20_one-BQ13.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_G2_30_one-APL9.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_G2_10_two-NW64.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_G2_20_two-LVW7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_G2_30_two-QGIQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_G2_10_three-YC1W.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_G2_20_three-JTO3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_G2_30_three-6S7N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_G2_10_four-WS73.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_G2_20_four-4G7B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_G2_30_four-RWBN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_G2_10_five-E736.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_G2_20_five-R83N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_G2_30_five-IKN7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_G2_10_six-0UTS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_G2_20_six-YAUR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_G2_30_six-7T0U.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_G2_10_seven-V93P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_G2_20_seven-CI9V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_G2_30_seven-MHGG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_G2_10_eight-2UU2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_G2_20_eight-76BY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_G2_30_eight-10OM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_G2_10_nine-7XAX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_G2_20_nine-EKIW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_G2_30_nine-H5HN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_G2_10_ten-FKH1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_G2_20_ten-55DC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_G2_30_ten-IDD5.ogg" />
+</region>
+<group>
+	<opcode name="key" value="49" />
+	<opcode name="group" value="118" />
+	<opcode name="off_by" value="203" />
+	<opcode name="group_volume" value="8" />
+	<opcode name="group_label" value="Open" />
+	<opcode name="sw_last" value="12" />
+	<opcode name="sw_label" value="Non-Var Hats" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_F2_10_one-D7SZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_F2_20_one-ARSZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_F2_30_one-B9MO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_F2_10_two-0FXK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_F2_20_two-MBZR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_F2_30_two-BD8Y.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_F2_10_three-406A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_F2_20_three-QG0C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_F2_30_three-1DRH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_F2_10_four-8713.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_F2_20_four-PF7V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_F2_30_four-6HWM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_F2_10_five-J8IY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_F2_20_five-88UG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_F2_30_five-1JVZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_F2_10_six-B2TB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_F2_20_six-9U64.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_F2_30_six-AV73.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_F2_10_seven-ZOF4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_F2_20_seven-N4AY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_F2_30_seven-8OT0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_F2_10_eight-DU7Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_F2_20_eight-62VF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_F2_30_eight-UGX1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_F2_10_nine-GDIF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_F2_20_nine-9QS7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_F2_30_nine-M907.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_F2_10_ten-NZ3K.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_F2_20_ten-NQSF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_F2_30_ten-15HS.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="locc4" value="0" />
+	<opcode name="hicc4" value="43" />
+	<opcode name="group" value="118" />
+	<opcode name="off_by" value="203" />
+	<opcode name="group_volume" value="8" />
+	<opcode name="group_label" value="Open" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_F2_10_one-D7SZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_F2_20_one-ARSZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_F2_30_one-B9MO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_F2_10_two-0FXK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_F2_20_two-MBZR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_F2_30_two-BD8Y.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_F2_10_three-406A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_F2_20_three-QG0C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_F2_30_three-1DRH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_F2_10_four-8713.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_F2_20_four-PF7V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_F2_30_four-6HWM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_F2_10_five-J8IY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_F2_20_five-88UG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_F2_30_five-1JVZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_F2_10_six-B2TB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_F2_20_six-9U64.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_F2_30_six-AV73.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_F2_10_seven-ZOF4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_F2_20_seven-N4AY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_F2_30_seven-8OT0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_F2_10_eight-DU7Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_F2_20_eight-62VF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_F2_30_eight-UGX1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_F2_10_nine-GDIF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_F2_20_nine-9QS7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_F2_30_nine-M907.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_F2_10_ten-NZ3K.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_F2_20_ten-NQSF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_F2_30_ten-15HS.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="locc4" value="44" />
+	<opcode name="hicc4" value="85" />
+	<opcode name="group" value="117" />
+	<opcode name="off_by" value="202" />
+	<opcode name="group_volume" value="7" />
+	<opcode name="group_label" value="Half" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_G2_10_one-MBS0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_G2_20_one-BQ13.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_G2_30_one-APL9.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_G2_10_two-NW64.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_G2_20_two-LVW7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_G2_30_two-QGIQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_G2_10_three-YC1W.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_G2_20_three-JTO3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_G2_30_three-6S7N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_G2_10_four-WS73.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_G2_20_four-4G7B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_G2_30_four-RWBN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_G2_10_five-E736.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_G2_20_five-R83N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_G2_30_five-IKN7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_G2_10_six-0UTS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_G2_20_six-YAUR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_G2_30_six-7T0U.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_G2_10_seven-V93P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_G2_20_seven-CI9V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_G2_30_seven-MHGG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_G2_10_eight-2UU2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_G2_20_eight-76BY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_G2_30_eight-10OM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_G2_10_nine-7XAX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_G2_20_nine-EKIW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_G2_30_nine-H5HN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_G2_10_ten-FKH1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_G2_20_ten-55DC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_G2_30_ten-IDD5.ogg" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="locc4" value="86" />
+	<opcode name="hicc4" value="127" />
+	<opcode name="group" value="115" />
+	<opcode name="off_by" value="200" />
+	<opcode name="group_volume" value="-4" />
+	<opcode name="group_label" value="Tight" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_D2_10_one-288O.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_D2_20_one-BC0H.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_D2_30_one-GO8Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_D2_10_two-EKPW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_D2_20_two-JW8B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_D2_30_two-QRO8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_D2_10_three-9UI3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_D2_20_three-5EYE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_D2_30_three-EVE0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_D2_10_four-Q5Y6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_D2_20_four-JAJJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_D2_30_four-Y56Y.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_D2_10_five-NEBB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_D2_20_five-O66R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_D2_30_five-XN8B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_D2_10_six-4NCA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_D2_20_six-0W1R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_D2_30_six-261N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_D2_10_seven-TF3Q.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_D2_20_seven-SSSO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_D2_30_seven-M73R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_D2_10_eight-MYJB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_D2_20_eight-G8EK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_D2_30_eight-MHTA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_D2_10_nine-JQ4W.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_D2_20_nine-6KFB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_D2_30_nine-0SUC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_D2_10_ten-VJWJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_D2_20_ten-OA16.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_D2_30_ten-RESV.ogg" />
+</region>
+<group>
+	<opcode name="key" value="26" />
+	<opcode name="locc4" value="0" />
+	<opcode name="hicc4" value="43" />
+	<opcode name="group" value="118" />
+	<opcode name="off_by" value="203" />
+	<opcode name="group_volume" value="8" />
+	<opcode name="group_label" value="Open" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_F2_10_one-D7SZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_F2_20_one-ARSZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_F2_30_one-B9MO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_F2_10_two-0FXK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_F2_20_two-MBZR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_F2_30_two-BD8Y.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_F2_10_three-406A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_F2_20_three-QG0C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_F2_30_three-1DRH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_F2_10_four-8713.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_F2_20_four-PF7V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_F2_30_four-6HWM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_F2_10_five-J8IY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_F2_20_five-88UG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_F2_30_five-1JVZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_F2_10_six-B2TB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_F2_20_six-9U64.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_F2_30_six-AV73.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_F2_10_seven-ZOF4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_F2_20_seven-N4AY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_F2_30_seven-8OT0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_F2_10_eight-DU7Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_F2_20_eight-62VF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_F2_30_eight-UGX1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_F2_10_nine-GDIF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_F2_20_nine-9QS7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_F2_30_nine-M907.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_F2_10_ten-NZ3K.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_F2_20_ten-NQSF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_F2_30_ten-15HS.ogg" />
+</region>
+<group>
+	<opcode name="key" value="26" />
+	<opcode name="locc4" value="44" />
+	<opcode name="hicc4" value="85" />
+	<opcode name="group" value="117" />
+	<opcode name="off_by" value="202" />
+	<opcode name="group_volume" value="7" />
+	<opcode name="group_label" value="Half" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_G2_10_one-MBS0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_G2_20_one-BQ13.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_G2_30_one-APL9.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_G2_10_two-NW64.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_G2_20_two-LVW7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_G2_30_two-QGIQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_G2_10_three-YC1W.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_G2_20_three-JTO3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_G2_30_three-6S7N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_G2_10_four-WS73.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_G2_20_four-4G7B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_G2_30_four-RWBN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_G2_10_five-E736.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_G2_20_five-R83N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_G2_30_five-IKN7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_G2_10_six-0UTS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_G2_20_six-YAUR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_G2_30_six-7T0U.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_G2_10_seven-V93P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_G2_20_seven-CI9V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_G2_30_seven-MHGG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_G2_10_eight-2UU2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_G2_20_eight-76BY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_G2_30_eight-10OM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_G2_10_nine-7XAX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_G2_20_nine-EKIW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_G2_30_nine-H5HN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_G2_10_ten-FKH1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_G2_20_ten-55DC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_G2_30_ten-IDD5.ogg" />
+</region>
+<group>
+	<opcode name="key" value="26" />
+	<opcode name="locc4" value="86" />
+	<opcode name="hicc4" value="127" />
+	<opcode name="group" value="116" />
+	<opcode name="off_by" value="201" />
+	<opcode name="group_volume" value="1" />
+	<opcode name="group_label" value="Closed" />
+	<opcode name="sw_last" value="13" />
+	<opcode name="sw_label" value="Variable Hats" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="203" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="202" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="201" />
+</region>
+<region>
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+	<opcode name="off_by" value="-1" />
+	<opcode name="end" value="-1" />
+	<opcode name="group" value="200" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="China_Mics_A2_10_one-24XE.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="China_Mics_A2_20_one-WXAN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="China_Mics_A2_30_one-DUTK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="China_Mics_A2_10_two-5W6B.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="China_Mics_A2_20_two-YCJ0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="China_Mics_A2_30_two-I2IV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="China_Mics_A2_10_three-TGZG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="China_Mics_A2_20_three-5TXD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="China_Mics_A2_30_three-CF1X.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="China_Mics_A2_10_four-XIA8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="China_Mics_A2_20_four-NQH6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="China_Mics_A2_30_four-CBUX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="China_Mics_A2_10_five-AJR1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="China_Mics_A2_20_five-605T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="China_Mics_A2_30_five-OX4P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="China_Mics_A2_10_six-84YI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="China_Mics_A2_20_six-S1PZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="China_Mics_A2_30_six-6PUZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="China_Mics_A2_10_seven-0E52.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="China_Mics_A2_20_seven-05ER.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="China_Mics_A2_30_seven-WN0M.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="China_Mics_A2_10_eight-7MF7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="China_Mics_A2_20_eight-VVAX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="China_Mics_A2_30_eight-8VV3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="China_Mics_A2_10_nine-101G.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="China_Mics_A2_20_nine-WERT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="China_Mics_A2_30_nine-YDHI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="China_Mics_A2_10_ten-CA2T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="China_Mics_A2_20_ten-645F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="China_Mics_A2_30_ten-3PI5.ogg" />
+</region>
+<master>
+	<opcode name="locc608" value="1" />
+	<opcode name="amplitude_oncc608" value="200" />
+	<opcode name="master_label" value="Ride" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="51" />
+	<opcode name="group" value="119" />
+	<opcode name="off_by" value="204" />
+	<opcode name="off_time" value="0.525" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="Bow" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_D3_10_one-BZJ9.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="TopOne_D3_20_one-VO70.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="TopOne_D3_30_one-3M05.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_D3_10_two-MQ09.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="TopOne_D3_20_two-DBV6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="TopOne_D3_30_two-OLJ0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_D3_10_three-T8KG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="TopOne_D3_20_three-C9PJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="TopOne_D3_30_three-PN5L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_D3_10_four-SNSZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="TopOne_D3_20_four-734Z.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="TopOne_D3_30_four-10Q6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_D3_10_five-3QQ5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="TopOne_D3_20_five-BASN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="TopOne_D3_30_five-KB3P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_D3_10_six-EXOP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="TopOne_D3_20_six-4XD0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="TopOne_D3_30_six-2B61.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_D3_10_seven-LLMM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="TopOne_D3_20_seven-C5YF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="TopOne_D3_30_seven-2WMB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_D3_10_eight-1ZLW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="TopOne_D3_20_eight-J3PI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="TopOne_D3_30_eight-SLM2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_D3_10_nine-YOCX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="TopOne_D3_20_nine-41N1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="TopOne_D3_30_nine-L0HV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_D3_10_ten-662N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="TopOne_D3_20_ten-XZJG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="TopOne_D3_30_ten-3EXO.ogg" />
+</region>
+<group>
+	<opcode name="key" value="53" />
+	<opcode name="group" value="120" />
+	<opcode name="off_by" value="204" />
+	<opcode name="off_time" value="0.525" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_volume" value="2" />
+	<opcode name="group_label" value="Bell" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_E3_10_one-2U9N.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_E3_10_two-EQZK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_E3_10_three-TS3I.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_E3_10_four-JPJG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_E3_10_five-PABO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_E3_10_six-OHFI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_E3_10_seven-IPRG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_E3_10_eight-3MXF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_E3_10_nine-ZOQU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_E3_10_ten-NYUB.ogg" />
+</region>
+<group>
+	<opcode name="group" value="204" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="51" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="53" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="60" />
+</region>
+<master>
+	<opcode name="locc609" value="1" />
+	<opcode name="amplitude_oncc609" value="200" />
+	<opcode name="master_label" value="Crash1" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="55" />
+	<opcode name="group" value="121" />
+	<opcode name="off_by" value="123" />
+	<opcode name="off_time" value="0.75" />
+	<opcode name="note_polyphony" value="6" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="Edge" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_D3_10_one-JWI3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="TopOne_D3_20_one-NFA8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="TopOne_D3_30_one-42I3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_D3_10_two-O993.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="TopOne_D3_20_two-Z6O9.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="TopOne_D3_30_two-ACTZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_D3_10_three-V2I8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="TopOne_D3_20_three-WG27.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="TopOne_D3_30_three-PDRF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_D3_10_four-HOEO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="TopOne_D3_20_four-QX3P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="TopOne_D3_30_four-Z3SA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_D3_10_five-37X1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="TopOne_D3_20_five-BSPY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="TopOne_D3_30_five-37XF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_D3_10_six-FMFJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="TopOne_D3_20_six-3341.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="TopOne_D3_30_six-YNX2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_D3_10_seven-ZBCY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="TopOne_D3_20_seven-YY6R.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="TopOne_D3_30_seven-9RLX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_D3_10_eight-MKS8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="TopOne_D3_20_eight-K3RC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="TopOne_D3_30_eight-5KS8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_D3_10_nine-9QNY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="TopOne_D3_20_nine-J8L7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="TopOne_D3_30_nine-C6OY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_D3_10_ten-4KRR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="TopOne_D3_20_ten-4699.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="TopOne_D3_30_ten-JR08.ogg" />
+</region>
+<group>
+	<opcode name="key" value="58" />
+	<opcode name="group" value="122" />
+	<opcode name="off_by" value="205" />
+	<opcode name="off_time" value="0.325" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_volume" value="-12" />
+	<opcode name="group_label" value="Bell" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_E3_10_one-1RIN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_E3_10_two-OE4S.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_E3_10_three-F43Q.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_E3_10_four-99DT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_E3_10_five-5B2C.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_E3_10_six-XOB2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_E3_10_seven-2OSN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_E3_10_eight-WZGO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_E3_10_nine-LLMO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_E3_10_ten-TGB0.ogg" />
+</region>
+<group>
+	<opcode name="key" value="55" />
+	<opcode name="group" value="123" />
+	<opcode name="group_volume" value="-21" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_F3_10_one-MF9F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_F3_10_two-52BM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_F3_10_three-05QO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_F3_10_four-PWAP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_F3_10_five-GMC6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_F3_10_six-H1GK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_F3_10_seven-RR6L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_F3_10_eight-A3VT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_F3_10_nine-203P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_F3_10_ten-KMET.ogg" />
+</region>
+<group>
+	<opcode name="sw_down" value="61" />
+	<opcode name="key" value="55" />
+	<opcode name="group" value="123" />
+	<opcode name="group_volume" value="-21" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="0" />
+	<opcode name="hicc130" value="126" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_F3_10_one-MF9F.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_F3_10_two-52BM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_F3_10_three-05QO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_F3_10_four-PWAP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_F3_10_five-GMC6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_F3_10_six-H1GK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_F3_10_seven-RR6L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_F3_10_eight-A3VT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_F3_10_nine-203P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_F3_10_ten-KMET.ogg" />
+</region>
+<group>
+	<opcode name="group" value="205" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="58" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="61" />
+</region>
+<master>
+	<opcode name="locc610" value="1" />
+	<opcode name="amplitude_oncc610" value="200" />
+	<opcode name="master_label" value="Crash2" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="57" />
+	<opcode name="group" value="124" />
+	<opcode name="off_by" value="126" />
+	<opcode name="off_time" value="0.75" />
+	<opcode name="note_polyphony" value="6" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="Edge" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_D3_10_one-4JC8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="TopOne_D3_20_one-59GC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="TopOne_D3_30_one-61WQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_D3_10_two-FAXT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="TopOne_D3_20_two-30I4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="TopOne_D3_30_two-VDQM.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_D3_10_three-1EC5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="TopOne_D3_20_three-SQ2L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="TopOne_D3_30_three-M5QU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_D3_10_four-41H8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="TopOne_D3_20_four-OE8L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="TopOne_D3_30_four-408A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_D3_10_five-CO93.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="TopOne_D3_20_five-H5EX.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="TopOne_D3_30_five-NAK4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_D3_10_six-MF89.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="TopOne_D3_20_six-W769.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="TopOne_D3_30_six-MPP5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_D3_10_seven-7DDN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="TopOne_D3_20_seven-26QA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="TopOne_D3_30_seven-OMWH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_D3_10_eight-XV7H.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="TopOne_D3_20_eight-U28X.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="TopOne_D3_30_eight-1C6T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_D3_10_nine-FHC4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="TopOne_D3_20_nine-FZD0.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="TopOne_D3_30_nine-N3WV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_D3_10_ten-LL5G.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="TopOne_D3_20_ten-ZKV4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="TopOne_D3_30_ten-54LT.ogg" />
+</region>
+<group>
+	<opcode name="key" value="59" />
+	<opcode name="group" value="125" />
+	<opcode name="off_by" value="206" />
+	<opcode name="off_time" value="0.325" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_volume" value="-12" />
+	<opcode name="group_label" value="Bell" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_E3_10_one-G845.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_E3_10_two-USMY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_E3_10_three-DXU6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_E3_10_four-QH5L.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_E3_10_five-5SQR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_E3_10_six-AYSV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_E3_10_seven-3T8X.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_E3_10_eight-PZ15.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_E3_10_nine-OJKB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_E3_10_ten-BS9P.ogg" />
+</region>
+<group>
+	<opcode name="key" value="57" />
+	<opcode name="group" value="126" />
+	<opcode name="group_volume" value="-12" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_F3_10_one-TQQF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_F3_10_two-4TTN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_F3_10_three-2BJ1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_F3_10_four-D9MD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_F3_10_five-8JNC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_F3_10_six-M0YC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_F3_10_seven-CJCS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_F3_10_eight-OSXL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_F3_10_nine-BJHT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_F3_10_ten-13W8.ogg" />
+</region>
+<group>
+	<opcode name="sw_down" value="62" />
+	<opcode name="key" value="57" />
+	<opcode name="group" value="126" />
+	<opcode name="group_volume" value="-12" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="0" />
+	<opcode name="hicc130" value="126" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_F3_10_one-TQQF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_F3_10_two-4TTN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_F3_10_three-2BJ1.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_F3_10_four-D9MD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_F3_10_five-8JNC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_F3_10_six-M0YC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_F3_10_seven-CJCS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_F3_10_eight-OSXL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_F3_10_nine-BJHT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_F3_10_ten-13W8.ogg" />
+</region>
+<group>
+	<opcode name="group" value="206" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="59" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="62" />
+</region>
+<master>
+	<opcode name="locc611" value="1" />
+	<opcode name="amplitude_oncc611" value="200" />
+	<opcode name="master_label" value="Splash1" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="54" />
+	<opcode name="group" value="127" />
+	<opcode name="off_by" value="207" />
+	<opcode name="off_time" value="0.225" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_label" value="Edge" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="TopOne_D3_20_one-G1IU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="TopOne_D3_30_one-PS46.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="TopOne_D3_20_two-3D1A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="TopOne_D3_30_two-B2E4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="TopOne_D3_20_three-RNGT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="TopOne_D3_30_three-8T37.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="TopOne_D3_20_four-UTP5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="TopOne_D3_30_four-U9KI.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="TopOne_D3_20_five-Y3W2.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="TopOne_D3_30_five-8WVS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="TopOne_D3_20_six-PWJD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="TopOne_D3_30_six-EBV3.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="TopOne_D3_20_seven-DR56.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="TopOne_D3_30_seven-BRXB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="TopOne_D3_20_eight-7FTU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="TopOne_D3_30_eight-MHHJ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="TopOne_D3_20_nine-S9D5.ogg" />
+	<opcode name="offset" value="8625" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="TopOne_D3_30_nine-UER8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="TopOne_D3_20_ten-46TK.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="TopOne_D3_30_ten-T460.ogg" />
+</region>
+<group>
+	<opcode name="group" value="207" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="54" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="63" />
+</region>
+<master>
+	<opcode name="locc612" value="1" />
+	<opcode name="amplitude_oncc612" value="200" />
+	<opcode name="master_label" value="Splash2" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="56" />
+	<opcode name="group" value="128" />
+	<opcode name="off_by" value="208" />
+	<opcode name="off_time" value="0.225" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_label" value="Edge" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="TopOne_D3_20_one-D764.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="TopOne_D3_30_one-W0GD.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="TopOne_D3_20_two-KSP5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="TopOne_D3_30_two-GKDC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="TopOne_D3_20_three-9AUN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="TopOne_D3_30_three-27Q4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="TopOne_D3_20_four-UP2X.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="TopOne_D3_30_four-S1MR.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="TopOne_D3_20_five-JFSF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="TopOne_D3_30_five-2PM9.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="TopOne_D3_20_six-XERY.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="TopOne_D3_30_six-QA27.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="TopOne_D3_20_seven-P12T.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="TopOne_D3_30_seven-EG2S.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="TopOne_D3_20_eight-8052.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="TopOne_D3_30_eight-I67P.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="TopOne_D3_20_nine-9AZ5.ogg" />
+	<opcode name="offset" value="0" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="TopOne_D3_30_nine-SITG.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="TopOne_D3_20_ten-WXSA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="TopOne_D3_30_ten-06Z8.ogg" />
+</region>
+<group>
+	<opcode name="group" value="208" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="56" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="64" />
+</region>
+<master>
+	<opcode name="locc613" value="1" />
+	<opcode name="amplitude_oncc613" value="200" />
+	<opcode name="master_label" value="China1" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="50" />
+	<opcode name="group" value="129" />
+	<opcode name="off_by" value="209" />
+	<opcode name="off_time" value="0.425" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_label" value="Edge" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="10 one" />
+	<opcode name="sample" value="TopOne_D3_10_one-6MBZ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="20 one" />
+	<opcode name="sample" value="TopOne_D3_20_one-8RIQ.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="1" />
+	<opcode name="region_label" value="30 one" />
+	<opcode name="sample" value="TopOne_D3_30_one-4JH6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="10 two" />
+	<opcode name="sample" value="TopOne_D3_10_two-LTA4.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="20 two" />
+	<opcode name="sample" value="TopOne_D3_20_two-14P7.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="2" />
+	<opcode name="region_label" value="30 two" />
+	<opcode name="sample" value="TopOne_D3_30_two-17TO.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="10 three" />
+	<opcode name="sample" value="TopOne_D3_10_three-V552.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="20 three" />
+	<opcode name="sample" value="TopOne_D3_20_three-8QXC.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="3" />
+	<opcode name="region_label" value="30 three" />
+	<opcode name="sample" value="TopOne_D3_30_three-4J4K.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="10 four" />
+	<opcode name="sample" value="TopOne_D3_10_four-2US6.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="20 four" />
+	<opcode name="sample" value="TopOne_D3_20_four-HOTF.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="4" />
+	<opcode name="region_label" value="30 four" />
+	<opcode name="sample" value="TopOne_D3_30_four-RQAH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="10 five" />
+	<opcode name="sample" value="TopOne_D3_10_five-AZFN.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="20 five" />
+	<opcode name="sample" value="TopOne_D3_20_five-ESG5.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="5" />
+	<opcode name="region_label" value="30 five" />
+	<opcode name="sample" value="TopOne_D3_30_five-Y0FH.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="10 six" />
+	<opcode name="sample" value="TopOne_D3_10_six-7DWB.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="20 six" />
+	<opcode name="sample" value="TopOne_D3_20_six-FOAU.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="6" />
+	<opcode name="region_label" value="30 six" />
+	<opcode name="sample" value="TopOne_D3_30_six-H8HL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="10 seven" />
+	<opcode name="sample" value="TopOne_D3_10_seven-E4NW.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="20 seven" />
+	<opcode name="sample" value="TopOne_D3_20_seven-L8TA.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="7" />
+	<opcode name="region_label" value="30 seven" />
+	<opcode name="sample" value="TopOne_D3_30_seven-BM9V.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="10 eight" />
+	<opcode name="sample" value="TopOne_D3_10_eight-QEFT.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="20 eight" />
+	<opcode name="sample" value="TopOne_D3_20_eight-11EP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="8" />
+	<opcode name="region_label" value="30 eight" />
+	<opcode name="sample" value="TopOne_D3_30_eight-RBPV.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="10 nine" />
+	<opcode name="sample" value="TopOne_D3_10_nine-2VR8.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="20 nine" />
+	<opcode name="sample" value="TopOne_D3_20_nine-7WSL.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="9" />
+	<opcode name="region_label" value="30 nine" />
+	<opcode name="sample" value="TopOne_D3_30_nine-P7AP.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="10 ten" />
+	<opcode name="sample" value="TopOne_D3_10_ten-5N8A.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="44" />
+	<opcode name="hivel" value="85" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="20 ten" />
+	<opcode name="sample" value="TopOne_D3_20_ten-HZFS.ogg" />
+</region>
+<region>
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="127" />
+	<opcode name="seq_position" value="10" />
+	<opcode name="region_label" value="30 ten" />
+	<opcode name="sample" value="TopOne_D3_30_ten-11UC.ogg" />
+</region>
+<group>
+	<opcode name="group" value="209" />
+	<opcode name="group_label" value="Choke" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="sample" value="*silence" />
+	<opcode name="seq_length" value="1" />
+</group>
+<region>
+	<opcode name="key" value="50" />
+	<opcode name="trigger" value="release" />
+	<opcode name="rt_decay" value="22" />
+	<opcode name="locc130" value="127" />
+	<opcode name="hicc130" value="127" />
+	<opcode name="on_locc130" value="127" />
+	<opcode name="on_hicc130" value="127" />
+	<opcode name="sw_vel" value="previous" />
+</region>
+<region>
+	<opcode name="key" value="65" />
+</region>
+<master>
+	<opcode name="locc614" value="1" />
+	<opcode name="amplitude_oncc614" value="200" />
+	<opcode name="master_label" value="China2" />
+	<opcode name="master_volume" value="0" />
+</master>
+<group>
+	<opcode name="key" value="52" />
+	<opcode name="group" value="130" />
+	<opcode name="off_by" value="210" />
+	<opcode name="off_time" value="0.425" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="group_label" value="Edge" />
+</group>
+<region>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="1" />
 	<opcode name="region_label" value="10 one" />
 	<opcode name="sample" value="TopOne_D3_10_one-XF0Y.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="1" />
 	<opcode name="region_label" value="20 one" />
 	<opcode name="sample" value="TopOne_D3_20_one-QTL8.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="1" />
 	<opcode name="region_label" value="30 one" />
 	<opcode name="sample" value="TopOne_D3_30_one-A8AP.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="2" />
 	<opcode name="region_label" value="10 two" />
 	<opcode name="sample" value="TopOne_D3_10_two-N4LB.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="2" />
 	<opcode name="region_label" value="20 two" />
 	<opcode name="sample" value="TopOne_D3_20_two-Z0TK.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="2" />
 	<opcode name="region_label" value="30 two" />
 	<opcode name="sample" value="TopOne_D3_30_two-T1FM.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="3" />
 	<opcode name="region_label" value="10 three" />
 	<opcode name="sample" value="TopOne_D3_10_three-3B31.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="3" />
 	<opcode name="region_label" value="20 three" />
 	<opcode name="sample" value="TopOne_D3_20_three-GIWM.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="3" />
 	<opcode name="region_label" value="30 three" />
 	<opcode name="sample" value="TopOne_D3_30_three-8EFT.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="4" />
 	<opcode name="region_label" value="10 four" />
 	<opcode name="sample" value="TopOne_D3_10_four-5ZS0.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="4" />
 	<opcode name="region_label" value="20 four" />
 	<opcode name="sample" value="TopOne_D3_20_four-GVXS.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="4" />
 	<opcode name="region_label" value="30 four" />
 	<opcode name="sample" value="TopOne_D3_30_four-ULMI.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="5" />
 	<opcode name="region_label" value="10 five" />
 	<opcode name="sample" value="TopOne_D3_10_five-M517.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="5" />
 	<opcode name="region_label" value="20 five" />
 	<opcode name="sample" value="TopOne_D3_20_five-3FQX.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="5" />
 	<opcode name="region_label" value="30 five" />
 	<opcode name="sample" value="TopOne_D3_30_five-IBC0.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="6" />
 	<opcode name="region_label" value="10 six" />
 	<opcode name="sample" value="TopOne_D3_10_six-GY0S.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="6" />
 	<opcode name="region_label" value="20 six" />
 	<opcode name="sample" value="TopOne_D3_20_six-7UXA.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="6" />
 	<opcode name="region_label" value="30 six" />
 	<opcode name="sample" value="TopOne_D3_30_six-WJ27.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="7" />
 	<opcode name="region_label" value="10 seven" />
 	<opcode name="sample" value="TopOne_D3_10_seven-Z7MF.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="7" />
 	<opcode name="region_label" value="20 seven" />
 	<opcode name="sample" value="TopOne_D3_20_seven-K2PY.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="7" />
 	<opcode name="region_label" value="30 seven" />
 	<opcode name="sample" value="TopOne_D3_30_seven-8A46.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="8" />
 	<opcode name="region_label" value="10 eight" />
 	<opcode name="sample" value="TopOne_D3_10_eight-3M92.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="8" />
 	<opcode name="region_label" value="20 eight" />
 	<opcode name="sample" value="TopOne_D3_20_eight-KMYY.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="8" />
 	<opcode name="region_label" value="30 eight" />
 	<opcode name="sample" value="TopOne_D3_30_eight-VIO4.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="9" />
 	<opcode name="region_label" value="10 nine" />
 	<opcode name="sample" value="TopOne_D3_10_nine-X37A.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="9" />
 	<opcode name="region_label" value="20 nine" />
 	<opcode name="sample" value="TopOne_D3_20_nine-LG6R.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="9" />
 	<opcode name="region_label" value="30 nine" />
 	<opcode name="sample" value="TopOne_D3_30_nine-RWFM.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="1" />
-	<opcode name="hivel" value="$V31H" />
+	<opcode name="hivel" value="43" />
 	<opcode name="seq_position" value="10" />
 	<opcode name="region_label" value="10 ten" />
 	<opcode name="sample" value="TopOne_D3_10_ten-V1RS.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="44" />
-	<opcode name="hivel" value="$V32H" />
+	<opcode name="hivel" value="85" />
 	<opcode name="seq_position" value="10" />
 	<opcode name="region_label" value="20 ten" />
 	<opcode name="sample" value="TopOne_D3_20_ten-T83A.ogg" />
 </region>
 <region>
 	<opcode name="lovel" value="86" />
-	<opcode name="hivel" value="$V33H" />
+	<opcode name="hivel" value="127" />
 	<opcode name="seq_position" value="10" />
 	<opcode name="region_label" value="30 ten" />
 	<opcode name="sample" value="TopOne_D3_30_ten-FQFF.ogg" />

@@ -1,6 +1,5 @@
 {
   "elements": [
-    {},
     {
       "type": "element",
       "name": "curve",
@@ -49,6 +48,38 @@
           "attributes": {
             "name": "default_path",
             "value": "../Samples/"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "label_cc7",
+            "value": "Vol"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "label_cc10",
+            "value": "Pan"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "set_cc7",
+            "value": "100"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "set_hdcc10",
+            "value": "0.5"
           }
         }
       ]
@@ -118,7 +149,56 @@
     {
       "type": "element",
       "name": "master",
-      "elements": []
+      "elements": [
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "master_label",
+            "value": "Tom5"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "master_volume",
+            "value": "0"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "note_polyphony",
+            "value": "1"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "off_time",
+            "value": "4"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "group",
+            "value": "10"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "tune",
+            "value": "0"
+          }
+        }
+      ]
     },
     {
       "type": "element",
@@ -142,7 +222,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -160,7 +239,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -206,7 +285,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -252,7 +331,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -298,7 +377,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -344,7 +423,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -390,7 +469,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -436,7 +515,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -482,7 +561,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -528,7 +607,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -574,7 +653,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -620,7 +699,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -666,7 +745,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -712,7 +791,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -758,7 +837,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -804,7 +883,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -850,7 +929,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -896,7 +975,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -942,7 +1021,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -988,7 +1067,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -1034,7 +1113,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -1080,7 +1159,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -1126,7 +1205,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -1172,7 +1251,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -1218,7 +1297,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -1264,7 +1343,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -1310,7 +1389,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -1356,7 +1435,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {
@@ -1402,7 +1481,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V31H"
+            "value": "43"
           }
         },
         {
@@ -1448,7 +1527,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V32H"
+            "value": "85"
           }
         },
         {
@@ -1494,7 +1573,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V33H"
+            "value": "127"
           }
         },
         {

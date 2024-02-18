@@ -1,6 +1,5 @@
 {
   "elements": [
-    {},
     {
       "type": "element",
       "name": "curve",
@@ -50,11 +49,7 @@
             "name": "default_path",
             "value": "../Samples/"
           }
-        }
-      ]
-    },
-    {
-      "elements": [
+        },
         {
           "type": "element",
           "name": "opcode",
@@ -93,6 +88,38 @@
           "attributes": {
             "name": "label_cc67",
             "value": "Split"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "label_cc7",
+            "value": "Vol"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "label_cc10",
+            "value": "Pan"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "set_cc7",
+            "value": "100"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "set_hdcc10",
+            "value": "0.5"
           }
         }
       ]
@@ -194,6 +221,46 @@
             "name": "pan_curvecc67",
             "value": "9"
           }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "master_label",
+            "value": "Snare1"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "master_volume",
+            "value": "0"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "note_polyphony",
+            "value": "1"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "off_time",
+            "value": "1.5"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "group",
+            "value": "3"
+          }
         }
       ]
     },
@@ -227,7 +294,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -245,7 +311,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -291,7 +357,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -337,7 +403,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -383,7 +449,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -429,7 +495,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -475,7 +541,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -521,7 +587,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -567,7 +633,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -613,7 +679,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -659,7 +725,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -718,7 +784,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -736,7 +801,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -790,7 +855,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -844,7 +909,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -898,7 +963,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -952,7 +1017,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -1006,7 +1071,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -1060,7 +1125,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -1114,7 +1179,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -1168,7 +1233,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -1222,7 +1287,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -1276,7 +1341,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -1330,7 +1395,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -1384,7 +1449,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -1438,7 +1503,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -1492,7 +1557,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -1546,7 +1611,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -1600,7 +1665,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -1654,7 +1719,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -1708,7 +1773,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -1762,7 +1827,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -1816,7 +1881,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -1870,7 +1935,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -1924,7 +1989,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -1978,7 +2043,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -2032,7 +2097,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -2086,7 +2151,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -2140,7 +2205,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -2194,7 +2259,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -2248,7 +2313,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -2302,7 +2367,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -2356,7 +2421,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -2410,7 +2475,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -2464,7 +2529,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -2518,7 +2583,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -2572,7 +2637,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -2626,7 +2691,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -2680,7 +2745,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -2734,7 +2799,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -2788,7 +2853,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -2842,7 +2907,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -2896,7 +2961,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -2950,7 +3015,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -3004,7 +3069,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -3058,7 +3123,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -3112,7 +3177,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -3166,7 +3231,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -3220,7 +3285,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -3274,7 +3339,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -3328,7 +3393,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -3382,7 +3447,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -3457,7 +3522,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -3475,7 +3539,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -3529,7 +3593,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -3583,7 +3647,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -3637,7 +3701,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -3691,7 +3755,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -3745,7 +3809,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -3799,7 +3863,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -3853,7 +3917,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -3907,7 +3971,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -3961,7 +4025,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -4015,7 +4079,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -4069,7 +4133,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -4123,7 +4187,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -4177,7 +4241,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -4231,7 +4295,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -4285,7 +4349,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -4339,7 +4403,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -4393,7 +4457,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -4447,7 +4511,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -4501,7 +4565,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -4555,7 +4619,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -4609,7 +4673,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -4663,7 +4727,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -4717,7 +4781,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -4771,7 +4835,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -4825,7 +4889,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -4879,7 +4943,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -4933,7 +4997,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -4987,7 +5051,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -5041,7 +5105,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -5095,7 +5159,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -5149,7 +5213,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -5203,7 +5267,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -5257,7 +5321,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -5311,7 +5375,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -5365,7 +5429,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -5419,7 +5483,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -5473,7 +5537,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -5527,7 +5591,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -5581,7 +5645,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -5635,7 +5699,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -5689,7 +5753,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -5743,7 +5807,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -5797,7 +5861,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -5851,7 +5915,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -5905,7 +5969,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -5959,7 +6023,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -6013,7 +6077,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -6067,7 +6131,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -6121,7 +6185,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -6193,6 +6257,46 @@
             "name": "pan_curvecc67",
             "value": "9"
           }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "master_label",
+            "value": "Snare1"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "master_volume",
+            "value": "0"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "note_polyphony",
+            "value": "1"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "off_time",
+            "value": "1.5"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "group",
+            "value": "4"
+          }
         }
       ]
     },
@@ -6226,7 +6330,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -6244,7 +6347,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6290,7 +6393,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6336,7 +6439,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6382,7 +6485,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6428,7 +6531,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6474,7 +6577,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6520,7 +6623,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6566,7 +6669,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6612,7 +6715,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6658,7 +6761,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V11H"
+            "value": "127"
           }
         },
         {
@@ -6717,7 +6820,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -6735,7 +6837,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -6789,7 +6891,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -6843,7 +6945,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -6897,7 +6999,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -6951,7 +7053,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -7005,7 +7107,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -7059,7 +7161,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -7113,7 +7215,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -7167,7 +7269,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -7221,7 +7323,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -7275,7 +7377,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -7329,7 +7431,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -7383,7 +7485,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -7437,7 +7539,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -7491,7 +7593,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -7545,7 +7647,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -7599,7 +7701,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -7653,7 +7755,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -7707,7 +7809,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -7761,7 +7863,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -7815,7 +7917,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -7869,7 +7971,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -7923,7 +8025,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -7977,7 +8079,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -8031,7 +8133,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -8085,7 +8187,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -8139,7 +8241,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -8193,7 +8295,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -8247,7 +8349,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -8301,7 +8403,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -8355,7 +8457,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -8409,7 +8511,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -8463,7 +8565,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -8517,7 +8619,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -8571,7 +8673,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -8625,7 +8727,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -8679,7 +8781,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -8733,7 +8835,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -8787,7 +8889,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -8841,7 +8943,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -8895,7 +8997,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -8949,7 +9051,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -9003,7 +9105,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -9057,7 +9159,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -9111,7 +9213,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -9165,7 +9267,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -9219,7 +9321,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -9273,7 +9375,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -9327,7 +9429,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -9381,7 +9483,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -9456,7 +9558,6 @@
         }
       ]
     },
-    {},
     {
       "type": "element",
       "name": "region",
@@ -9474,7 +9575,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -9528,7 +9629,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -9582,7 +9683,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -9636,7 +9737,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -9690,7 +9791,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -9744,7 +9845,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -9798,7 +9899,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -9852,7 +9953,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -9906,7 +10007,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -9960,7 +10061,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -10014,7 +10115,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -10068,7 +10169,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -10122,7 +10223,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -10176,7 +10277,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -10230,7 +10331,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -10284,7 +10385,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -10338,7 +10439,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -10392,7 +10493,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -10446,7 +10547,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -10500,7 +10601,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -10554,7 +10655,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -10608,7 +10709,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -10662,7 +10763,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -10716,7 +10817,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -10770,7 +10871,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -10824,7 +10925,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -10878,7 +10979,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -10932,7 +11033,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -10986,7 +11087,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -11040,7 +11141,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -11094,7 +11195,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -11148,7 +11249,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -11202,7 +11303,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -11256,7 +11357,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -11310,7 +11411,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -11364,7 +11465,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -11418,7 +11519,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -11472,7 +11573,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -11526,7 +11627,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -11580,7 +11681,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -11634,7 +11735,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -11688,7 +11789,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -11742,7 +11843,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -11796,7 +11897,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -11850,7 +11951,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
@@ -11904,7 +12005,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V51H"
+            "value": "27"
           }
         },
         {
@@ -11958,7 +12059,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V52H"
+            "value": "52"
           }
         },
         {
@@ -12012,7 +12113,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V53H"
+            "value": "77"
           }
         },
         {
@@ -12066,7 +12167,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V54H"
+            "value": "102"
           }
         },
         {
@@ -12120,7 +12221,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hivel",
-            "value": "$V55H"
+            "value": "127"
           }
         },
         {
